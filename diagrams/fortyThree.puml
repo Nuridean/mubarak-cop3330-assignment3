@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Application
+class websiteGenerator
+Application <--o websiteGenerator
+
+class Application {
+
+    - String nameofSite;
+    - static String authorofSite;
+    - static String javaScript;
+    - static String cssFile;
+
+    + void main()
+    + void ifFolderNeeded()
+    + void promptUserInput()
+}
+
+class websiteGenerator {
+    +String nameofSite;
+    +String authorofSite;
+    +String filePath;
+
+    +String javaScriptFolder()
+    +String String HTMLFolder()
+    +String CSSFolder()
+    +String websiteGenerator()
+
+}
+
+
+@enduml

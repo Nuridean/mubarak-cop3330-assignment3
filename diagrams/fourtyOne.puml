@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Application{
+lines:List
+private static List<String> getStrings()
+}
+
+class alphabeticalSort {
+public static void sortFunction()
+}
+
+class outputToFile {
+ public static void outputToFile()
+ FileWriter output = new FileWriter()
+}
+
+
+Application <|-- alphabeticalSort
+Application <|-- outputToFile
+
+
+
+@enduml

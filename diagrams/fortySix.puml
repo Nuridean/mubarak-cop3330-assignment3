@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Application
+
+class Application {
+
+    - final Scanner
+
+    +void main()
+    -void wordChecker()
+    -void wordPrinter()
+}
+
+
+@enduml

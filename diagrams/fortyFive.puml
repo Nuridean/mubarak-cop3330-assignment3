@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Application
+class fileEditor
+Application <--o fileEditor
+
+class Application {
+
+    String list;
+
+    + void main()
+}
+
+class fileEditor {
+        String badWord;
+        String goodWord;
+        String replacer;
+
+    -void replacerNode()
+    -String askingUserForName()
+    +void fileReader()
+
+}
+
+
+@enduml
